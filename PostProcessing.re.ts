@@ -31,7 +31,7 @@ export default class PostProcessing extends RE.Component {
     composer.addPass(bloom)
 
     //Depth of field
-    /* TODO not working yet */
+    /* TODO not working yet
     const bokehPass = new BokehPass( scene, camera, {
       focus: 1.0,
       aperture: 0.025,
@@ -39,6 +39,7 @@ export default class PostProcessing extends RE.Component {
     })
 
     composer.addPass(bokehPass)
+    */
 
     //SMAA
     if (this.smaa) {
